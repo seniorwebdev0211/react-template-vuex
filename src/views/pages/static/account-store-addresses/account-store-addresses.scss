@@ -1,0 +1,25 @@
+.account-store-addresses {
+    margin-top: 30px;
+    .divider {
+        margin: 0;
+    }
+    .account-store-addresses-list {
+        .address-item-left {
+            display: flex;
+            .address-item-icon {
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+            .address-item-text {
+                .address-item-title {
+                    line-height: 1.75rem;
+                }
+            }
+        }
+        .address-item-right {
+            text-align: right;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+    }
+}

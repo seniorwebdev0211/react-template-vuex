@@ -1,0 +1,60 @@
+.friends{
+    margin-top: 30px;    
+    .friends-requests-box {
+        .card-body {
+            padding: 0;
+            .nav-tabs {
+                margin-bottom: 0;
+                .nav-link {
+                    padding: 1rem;
+                }
+            }
+            .no-item-text {
+                padding: 1.5rem;
+            }
+        }
+        .friend-requests-list {
+            .author-name a {
+                line-height: 3.5;
+            }
+            .author-action {
+                position: absolute;
+                right: 1.25rem;
+                top: 1.25rem;
+            }
+        }
+    }    
+    .divider {
+        margin: 0;
+    }
+    .friends-box {
+        .friend-item {
+            box-shadow: 0 4px 24px 0 rgba(34, 41, 47, 0.1) !important;
+            .card-body {
+                background-color: #f5f5f5;
+                .friend-name {
+                    color: #7367f0;
+                    margin-bottom: 1rem;
+                }
+            }
+            .img-fluid {
+                height: 104px;
+            }
+        }
+    }
+    .friends-recommmend-box {
+        .card-body {
+            padding: 0;
+            .friend-requests-list {
+                .author-name a {
+                    line-height: 3.5;
+                }
+                .author-action {
+                    position: absolute;
+                    right: 1.25rem;
+                    top: 1.25rem;
+                }
+            }
+        }
+    }    
+}

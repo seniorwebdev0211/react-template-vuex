@@ -1,0 +1,70 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.home_body{
+	display: flex;
+}
+.home_seg1_back{
+	background : url('../images/ui_image/pet-store2-min.jpg') no-repeat center center;
+	height: 100%;
+	background-size: cover;
+	padding: 160px 0px;
+	min-height: 450px;
+	width: 50%;
+	margin-right: 5px;
+	box-shadow: 0px 0px 5px #ececec;
+	
+}
+.home_seg2_back{
+	background : url('../images/ui_image/pet-social-min.jpg') no-repeat center center;
+	height: 100%;
+	background-size: cover;
+	padding: 160px 0px;
+	min-height: 450px;
+	width: 50%;
+	box-shadow: 0px 0px 5px #ececec;
+}
+.inline_items{
+	width: 250px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+.item_font1{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #515365;
+	font-size: 24px;
+}
+.item_font2{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	color: #0f6936;
+	font-size: 16px;
+}
+
+@media (max-width: 800px){
+	.home_body{
+		display: block;
+	}
+	.home_seg1_back{
+		width: 100%;
+		min-height: 250px;
+		padding: 85px 0px;
+	}
+	.home_seg2_back{
+		width: 100%;
+		min-height: 250px;
+		padding: 85px 0px;
+	}
+}
